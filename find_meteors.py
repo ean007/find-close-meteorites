@@ -11,7 +11,8 @@ def calc_dist(lat1, lon1, lat2, lon2):
         math.sin((lat2 - lat1) / 2) ** 2
         + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
     )
-
+    
+    # 6372.8km is approx radius of the Earth
     return 6372.8 * 2 * math.asin(math.sqrt(h))
 
 
