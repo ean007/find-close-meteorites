@@ -36,7 +36,3 @@ n=0
 for meteor in meteor_data[0:10]:
     print(f"{meteor_data[n]}\n")
     n=n+1
-    
-
-
-
